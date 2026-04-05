@@ -6,37 +6,60 @@
         body {
             font-family: Arial;
             margin: 0;
-            background: #f4f4f4;
-        }
-        header {
-            background: #333;
+            background: linear-gradient(to right, #667eea, #764ba2);
             color: white;
+        }
+
+        header {
             text-align: center;
-            padding: 20px;
+            padding: 40px;
         }
+
         section {
-            padding: 20px;
-            margin: 10px;
             background: white;
-            border-radius: 10px;
+            color: black;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
         }
+
+        h1 {
+            font-size: 40px;
+        }
+
         h2 {
-            color: #333;
+            color: #764ba2;
         }
+
         ul {
             list-style: none;
+            padding: 0;
         }
+
         li {
             padding: 5px 0;
         }
+
         .project {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
+
         footer {
             text-align: center;
             padding: 10px;
-            background: #333;
+        }
+
+        button {
+            background: #764ba2;
             color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #5a3d91;
         }
     </style>
 </head>
@@ -64,15 +87,15 @@
 
 <section>
     <h2>Projects</h2>
-    
+
     <div class="project">
         <strong>Student Performance Prediction</strong>
-        <p>Machine learning model built using Python.</p>
+        <p>Machine learning model using Python.</p>
     </div>
 
     <div class="project">
         <strong>To-Do App</strong>
-        <p>Task manager using HTML, CSS, JavaScript.</p>
+        <p>Task manager using JavaScript with local storage.</p>
     </div>
 
 </section>
@@ -80,6 +103,7 @@
 <section>
     <h2>Contact</h2>
     <p>Email: tatigumtanikhitha@gmail.com</p>
+    <button onclick="alert('Thanks for visiting!')">Say Hi 👋</button>
 </section>
 
 <footer>
